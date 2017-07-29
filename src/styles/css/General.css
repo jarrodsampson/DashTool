@@ -1,0 +1,81 @@
+.nav-bar-color {
+  background-color: #263238 !important; }
+
+.accent-color {
+  background-color: #9575cd !important; }
+
+.spinner-red, .spinner-accent-only {
+  border-color: #9575cd; }
+
+.ReactTable .-pagination .-btn {
+  background: #9575cd !important;
+  color: white !important; }
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #9575cd; }
+
+input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="date"]:focus:not([readonly]), input[type="datetime"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #9575cd !important;
+  box-shadow: 0 1px 0 0 #9575cd !important; }
+
+[type="radio"]:checked + label::after, .with-gap[type="radio"]:checked + label::after {
+  background-color: #9575cd; }
+
+[type="radio"]:checked + label::after, .with-gap[type="radio"]:checked + label::before, .with-gap[type="radio"]:checked + label::after {
+  border: 2px solid #9575cd; }
+
+.filled-in[type="checkbox"]:checked + label::after {
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #9575cd;
+  background-color: #9575cd;
+  z-index: 0; }
+
+.switch label input[type="checkbox"]:checked + .lever::after {
+  background-color: #9575cd;
+  left: 24px; }
+
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: #9575cd; }
+
+.input-field input[type=text]:focus + label {
+  color: #9575cd; }
+
+.dropdown-content li > span {
+  color: #9575cd; }
+
+.picker__date-display {
+  background-color: #9575cd; }
+
+.picker__weekday-display {
+  background-color: #9575cd; }
+
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+  background-color: #9575cd; }
+
+.picker__day.picker__day--today, .picker__footer button {
+  color: #9575cd; }
+
+.tabs .tab a {
+  color: #9575cd; }
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #263238; }
+
+.tabs .indicator {
+  background-color: #263238; }
+
+/* function for picker hover color */
+.picker__nav--next:hover, .picker__nav--prev:hover {
+  background: #9575cd;
+  /* The Fallback */
+  background: rgba(149, 117, 205, 0.1); }
+
+.ReactTable .rt-thead .rt-th.-sort-asc, .ReactTable .rt-thead .rt-td.-sort-asc {
+  -webkit-box-shadow: inset 0 3px 0 0 #9575cd !important;
+  box-shadow: inset 0 3px 0 0 #9575cd !important; }
+
+.ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-td.-sort-desc {
+  -webkit-box-shadow: inset 0 -3px 0 0 #9575cd !important;
+  box-shadow: inset 0 -3px 0 0 #9575cd !important; }

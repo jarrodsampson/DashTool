@@ -1,0 +1,132 @@
+/*
+  Main Universal Styles Go Here
+*/
+
+body {
+    background: rgba(236, 240, 241,1.0);
+}
+
+.hidden { display:none; }
+
+.no-padding {
+    padding:0 !important;
+}
+.scrollTop {
+    position: fixed;
+    bottom: 20px;
+    right: 1em;
+    z-index: 996;
+    cursor: pointer;
+}
+
+.scrollTop i {
+    font-size: 20pt;
+    color: white;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav .brand-logo {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 9em;
+}
+
+.activeV {
+    background:rgba(0,0,0,0.2);
+}
+
+.pagination li.active {
+    background-color: #9575cd;
+}
+
+.pagination li:hover {
+    background-color: #9575cd;
+}
+
+.pagination li:hover a {
+    color:white;
+}
+
+.pagination li.active:hover {
+    background-color: #5e35b1;
+}
+
+.pagination {
+    cursor:pointer;
+}
+
+.container-fluid-push {
+    padding-left:2em;
+}
+
+.admin-page-footer {
+    margin-left: 250px;
+}
+
+.page {
+    min-height:700px;
+}
+
+.dataLoader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 100px;
+    margin-left: -150px;
+    margin-top: -90px;
+    text-align: center;
+}
+
+.appRoot2 {
+    min-height: 600px !important;
+    position:relative;
+}
+
+.button-margin {
+    margin:1em;
+}
+
+.push-down-two-ems {
+    margin-top: 2em;
+}
+
+.FormError {
+    color: red;
+    font-style: italic;
+}
+
+label {
+    display: block;
+}
+
+
+.form-manual-label-push, .switch {
+    margin-left:.8em;
+}
+
+.btn:not(.not-deep) {
+    z-index: 0;
+}
+
+.ReactTable input, .ReactTable select {
+    padding: 0 7px !important;
+}
+
+.ReactTable .select-wrap {
+    display:none !important;
+}
+
+
+.ReactTable .rt-thead .rt-tr {
+    padding: 0 .4em 0 0;
+}
+
+.ReactTable .-pagination .-pageInfo {
+    max-height: 50px;
+}
+

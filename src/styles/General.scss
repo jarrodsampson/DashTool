@@ -1,0 +1,117 @@
+
+
+$accent-color: #9575cd;
+$accent-color-dim: lighten( $accent-color, 80% );
+$main-theme-color: #263238;
+
+.nav-bar-color {
+  background-color: $main-theme-color !important;
+}
+
+.accent-color {
+  background-color: $accent-color !important;
+}
+
+.spinner-red, .spinner-accent-only {
+  border-color: $accent-color;
+}
+
+.ReactTable .-pagination .-btn {
+  background: $accent-color !important;
+  color:white !important;
+}
+
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+  color: $accent-color;
+}
+
+input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="date"]:focus:not([readonly]), input[type="datetime"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid $accent-color !important;
+  box-shadow: 0 1px 0 0 $accent-color !important;
+}
+
+[type="radio"]:checked + label::after, .with-gap[type="radio"]:checked + label::after {
+  background-color: $accent-color;
+}
+
+[type="radio"]:checked + label::after, .with-gap[type="radio"]:checked + label::before, .with-gap[type="radio"]:checked + label::after {
+  border: 2px solid $accent-color;
+}
+
+.filled-in[type="checkbox"]:checked + label::after {
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid $accent-color;
+  background-color: $accent-color;
+  z-index: 0;
+}
+
+.switch label input[type="checkbox"]:checked + .lever::after {
+  background-color: $accent-color;
+  left: 24px;
+}
+
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: $accent-color;
+}
+
+.input-field input[type=text]:focus + label {
+  color: $accent-color;
+}
+
+.dropdown-content li > span {
+  color: $accent-color;
+}
+
+
+.picker__date-display {
+  background-color: $accent-color;
+}
+
+.picker__weekday-display {
+  background-color: $accent-color;
+}
+
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+  background-color: $accent-color;
+}
+
+.picker__day.picker__day--today, .picker__footer button {
+  color: $accent-color;
+}
+
+.tabs .tab a {
+  color: $accent-color;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: $main-theme-color;
+}
+
+.tabs .indicator {
+  background-color: $main-theme-color;
+}
+
+
+/* function for picker hover color */
+
+@mixin background-opacity($color, $opacity: 0.3) {
+  background: $color; /* The Fallback */
+  background: rgba($color, $opacity);
+}
+
+.picker__nav--next:hover, .picker__nav--prev:hover {
+  @include background-opacity($accent-color, 0.1);
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc, .ReactTable .rt-thead .rt-td.-sort-asc {
+  -webkit-box-shadow: inset 0 3px 0 0 $accent-color !important;
+  box-shadow: inset 0 3px 0 0 $accent-color !important;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-td.-sort-desc {
+  -webkit-box-shadow: inset 0 -3px 0 0 $accent-color !important;
+  box-shadow: inset 0 -3px 0 0 $accent-color !important;
+}
